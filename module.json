@@ -1,0 +1,47 @@
+{
+    "id": "dungeonworld-ko",
+    "name": "dungeonworld-ko",
+    "title": "Translation: Korean [WWN]",
+    "description": "던전 시스템의 한국어화 모듈입니다.",
+    "version": "0.1.0",
+    "library": "true",
+    "compatibility": {
+        "minimum": 11,
+        "verified": 11.315,
+        "maximum": 12
+    },
+    "authors": [
+        {
+            "name": "VedminStuden",
+            "discord": "vedmin_studen"
+        }
+    ],
+    "esmodules": [
+        "scripts/babele-register.js"
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dungeonworld",
+                "type": "system"
+            }
+        ],
+        "requires": [
+            {
+                "id": "babele",
+                "type": "module",
+                "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+            }
+        ]
+    },
+    "languages": [
+        {
+            "lang": "ko",
+            "name": "Korean",
+            "path": "module/ko.json"
+        }
+    ],
+	"url": "https://github.com/VedminStuden/dungeonworld-ko",
+	"manifest": "https://raw.githubusercontent.com/VedminStuden/dungeonworld-ko/master/module.json",
+	"download": "https://github.com/VedminStuden/dungeonworld-ko/archive/refs/heads/master.zip"
+}
