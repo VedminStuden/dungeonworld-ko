@@ -1,10 +1,10 @@
 {
     "id": "dungeonworld-ko",
     "name": "dungeonworld-ko",
-    "title": "Translation: Korean [WWN]",
+    "title": "Translation: Korean [Dungeon World]",
     "description": "던전 시스템의 한국어화 모듈입니다.",
     "version": "0.1.0",
-    "library": "true",
+    "library": "false",
     "compatibility": {
         "minimum": 11,
         "verified": 11.315,
@@ -17,7 +17,7 @@
         }
     ],
     "esmodules": [
-        "scripts/babele-register.js"
+        "babele-register.js"
     ],
     "relationships": {
         "systems": [
@@ -38,7 +38,7 @@
         {
             "lang": "ko",
             "name": "Korean",
-            "path": "module/ko.json"
+            "path": "ko.json"
         }
     ],
 	"url": "https://github.com/VedminStuden/dungeonworld-ko",
