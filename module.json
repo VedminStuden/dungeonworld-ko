@@ -3,7 +3,7 @@
     "name": "dungeonworld-ko",
     "title": "Translation: Korean [Dungeon World]",
     "description": "던전 시스템의 한국어화 모듈입니다.",
-    "version": "0.1.3",
+    "version": "0.1.5",
     "library": "false",
     "compatibility": {
         "minimum": 11,
